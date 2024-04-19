@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  margin-top: 300px;
+  justify-content: center;
+  background-image: url(./anime4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -50px; 
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#time {
+  padding: 20px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+#time:hover {
+  color: rgb(1, 255, 255);
+  background-color: #ffffff31;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  body {
+    background-color: black;
+    background-image: none;
+  }
+  #time {
+    box-shadow: 10px 10px 20px rgba(139, 0, 0, 0.8);
+    color: red;
+    cursor: pointer;
+    cursor: pointer;
+  }
+  #time:hover {
+    color: rgb(1, 255, 255);
+    background-color: #ffffff31;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 231, 220, 0.8);
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: none;
+  }
+  #time {
+    box-shadow: 10px 10px 20px rgba(139, 0, 0, 0.8);
+    color: red;
+    cursor: pointer;
+  }
+  #time:hover {
+    color: rgb(1, 255, 255);
+    background-color: #ffffff31;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 231, 220, 0.8);
+    transform: scale(1.1);
+  }
+}
